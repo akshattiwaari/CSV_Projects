@@ -25,7 +25,7 @@ def read():
 def search_count():
     File=open('Record.csv','r',newline='')
     Data=csv.reader(File)
-    Ch=input('Enter City :')
+    Ch=input('Enter City to search no. of records :')
     Count=0
     next(Data)
     for i in Data:
